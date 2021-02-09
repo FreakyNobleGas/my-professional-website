@@ -1,0 +1,7 @@
+version: '1.0'
+services:
+  angular-docker:
+    container_name: my-website-container
+    build: ./my-website
+    ports:
+      - '9000:80'
