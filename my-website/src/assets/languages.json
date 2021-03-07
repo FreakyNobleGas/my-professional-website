@@ -1,0 +1,19 @@
+{
+    "data" : [
+        {
+            "name" : "Python",
+            "image" : "./assets/img/python.png",
+            "url": "https://www.python.org/"
+        },
+        {
+            "name" : "Kubernetes",
+            "image" : "./assets/img/kubernetes.png",
+            "url": "https://kubernetes.io/"
+        },
+        {
+            "name" : "Angular",
+            "image" : "./assets/img/angular.png",
+            "url": "https://angular.io/"
+        }
+    ]
+}

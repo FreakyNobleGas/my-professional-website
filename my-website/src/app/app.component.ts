@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { HomepageService } from './homepage.service';
+import { Languages } from './languages';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +11,7 @@ import { MenuItem } from 'primeng/api';
 export class AppComponent {
   title = 'My Professional Website';
 
-  languages = [
-    {"language": "hi"},
-    {"language": "bye"},
-    {"language": "bye"}
-  ]
+  languages : Languages[];
 
   responsiveOptions = [
     {
@@ -33,6 +30,14 @@ export class AppComponent {
         numScroll: 1
     }
   ];
+
+  constructor(private HomepageService : HomepageService) {}
+
+  ngOnInit() {
+    this.HomepageService.getLanguages().then(languages => {
+      this.languages = languages;
+    })
+  }
 }
 
 
