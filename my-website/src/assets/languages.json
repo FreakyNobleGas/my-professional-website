@@ -14,6 +14,51 @@
             "name" : "Angular",
             "image" : "./assets/img/angular.png",
             "url": "https://angular.io/"
+        },
+        {
+            "name" : "Docker",
+            "image" : "./assets/img/docker.png",
+            "url": "https://www.docker.com/"
+        },
+        {
+            "name" : "C++",
+            "image" : "./assets/img/c++.png",
+            "url": "https://www.cplusplus.com/"
+        },
+        {
+            "name" : "C",
+            "image" : "./assets/img/c.png",
+            "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        },
+        {
+            "name" : "Datadog",
+            "image" : "./assets/img/datadog.png",
+            "url": "https://www.datadoghq.com/"
+        },
+        {
+            "name" : "Java",
+            "image" : "./assets/img/java.png",
+            "url": "https://www.oracle.com/java/"
+        },
+        {
+            "name" : "Spring Boot",
+            "image" : "./assets/img/spring.png",
+            "url": "https://spring.io/projects/spring-boot"
+        },
+        {
+            "name" : "Haskell",
+            "image" : "./assets/img/haskell.png",
+            "url": "https://www.haskell.org/"
+        },
+        {
+            "name" : "Git",
+            "image" : "./assets/img/git.png",
+            "url": "https://git-scm.com/"
+        },
+        {
+            "name" : "Jira",
+            "image" : "./assets/img/jira.png",
+            "url": "https://www.atlassian.com/software/jira?&aceid=&adposition=&adgroup=56999361780&campaign=1439934479&creative=429724101024&device=c&keyword=jira&matchtype=e&network=g&placement=&ds_kids=p34164036185&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gclid=CjwKCAiAkJKCBhAyEiwAKQBCkmnZAXZuiK699rB4DgMglHwmbpEZ-e_RzdfD76c_Ar2wommYeDd9_BoCF4gQAvD_BwE&gclsrc=aw.ds"
         }
     ]
 }
