@@ -1,47 +1,14 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <title>My Professional Website</title>
-  </head>
-  <body>
-    <!-- Header with Banner and Selfie -->
-    <div class="parent-header">
-      <img src="../assets/img/nick-selfie-beach.jpg" class="img-fluid, selfie" alt="Selfie of Nick Quinn at beach">
-    </div>
-
-    <div class="menu">
-      <p>
-        Home |
-        About Me |
-        Work |
-        Projects |
-        Contact
-      </p>
-    </div>
+<p-carousel [value]="languages" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1"  [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
     
-    <p-carousel [value]="languages" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1"  [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
-      
-      <ng-template let-language pTemplate="item">
-        <div class="menu">
-          <h5>{{language.name}}</h5>
-        </div>
-        <div class="menu">
-          <a href="{{language.url}}"><img src="{{language.image}}" class="img-fluid" alt="{{language.name}} logo"></a>
-        </div>
-        <p-button type="button" styleClass="p-button p-button-rounded p-mr-2" icon="pi pi-search"></p-button>
-                        <p-button type="button" styleClass="p-button-success p-button-rounded p-mr-2" icon="pi pi-star"></p-button>
-                        <p-button type="button" styleClass="p-button-help p-button-rounded" icon="pi pi-cog"></p-button>
-        </ng-template>
-    </p-carousel>
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <ng-template let-language pTemplate="item">
+    <div class="menu">
+        <h5>{{language.name}}</h5>
+    </div>
+    <div class="menu">
+        <a href="{{language.url}}"><img src="{{language.image}}" class="img-fluid" alt="{{language.name}} logo"></a>
+    </div>
+    <p-button type="button" styleClass="p-button p-button-rounded p-mr-2" icon="pi pi-search"></p-button>
+                    <p-button type="button" styleClass="p-button-success p-button-rounded p-mr-2" icon="pi pi-star"></p-button>
+                    <p-button type="button" styleClass="p-button-help p-button-rounded" icon="pi pi-cog"></p-button>
+    </ng-template>
+</p-carousel>
