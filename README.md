@@ -1,5 +1,7 @@
 # TODOs
 - Add links in about me section where applicable
+- Replace Favicon or remove it
+- Implement cards
 - Infrastructure
     - Domain Name
     - Cloudflare?
