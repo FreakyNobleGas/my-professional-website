@@ -12,12 +12,12 @@
     md:<some-property> => Only apply on larger screens
 -->
 
-<div class="flex flex-col md:flex-row font-mono h-screen gap-x-2">
+<div class="flex flex-col md:flex-row font-mono gap-x-2">
 	<!-- 
     Left Side 
   -->
-	<div class="basis-1/3 place-content-center">
-      <!-- <div class="static md:fixed top-32"> -->
+	<div class="basis-1/3">
+      <div class="static md:sticky top-32">
 			<div class="space-y-4 items">
 				<h2 class="h2">Nick Quinn</h2>
 				<h4 class="h4">Full Stack Engineer</h4>
@@ -52,7 +52,7 @@
 					/>
 				</a>
 			</div>
-    <!-- </div> -->
+    </div>
 	</div>
 	<!-- 
     Right Side 
