@@ -1,0 +1,30 @@
+[
+    {
+        "years": "Aug 2022 - Present",
+        "company": "Fidelity Labs - Catchlight",
+        "title": "Full Stack Engineer",
+        "description": "Experience working in a dynamic and fast-paced environment to deliver business needs.",
+        "technologies": ["Python", "TypeScript", "AWS", "Ruby on Rails"]
+    },
+    {
+        "years": "Jan 2020 - Aug 2022",
+        "company": "Fidelity",
+        "title": "Software Engineer",
+        "description": "Experience working on Fidelity's Cloud Platform Engineering to develop and deliver Observability solutions across the company.",
+        "technologies": ["Observability", "Kubernetes", "Python", "Go"]
+    },
+    {
+        "years": "Jun 2018 - Nov 2019",
+        "company": "BAE Systems",
+        "title": "Intern",
+        "description": "",
+        "technologies": ["Ada", "Python", "Git", "Bash"]
+    },
+    {
+        "years": "Mar 2016 - May 2017",
+        "company": "Kansas State University Catalyst Technology Center",
+        "title": "IT Technician",
+        "description": "TODO",
+        "technologies": ["MacOS"]
+    }
+]

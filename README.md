@@ -16,3 +16,6 @@ Start Dev Server
 ```bash
 bun run dev
 ```
+
+Inspired By
+https://brittanychiang.com/?ref=hackernoon.com
