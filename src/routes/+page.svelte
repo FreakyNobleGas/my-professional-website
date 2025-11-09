@@ -14,12 +14,20 @@
     md:<some-property> => Only apply on larger screens
 -->
 
-<div class="flex flex-col md:flex-row font-mono gap-x-2 mt-20 px-16">
-	<!-- 
-    Left Side 
+<div class="flex flex-col md:flex-row font-mono gap-x-8 mt-20 px-16">
+	<!--
+    Left Side
   -->
-	<div class="basis-1/3">
+	<div class="basis-1/4">
 		<div class="static md:sticky top-32">
+			<!-- Headshot -->
+			<div class="flex justify-start mb-6">
+				<img
+					src="/headshot.png"
+					alt="Nick Quinn headshot"
+					class="w-40 h-40 rounded-full object-cover border-2 border-surface-300-700 shadow-lg"
+				/>
+			</div>
 			<div class="space-y-4 items">
 				<h2 class="h2">Nick Quinn</h2>
 				<h4 class="h4">Full Stack Engineer</h4>
@@ -28,7 +36,7 @@
         Page Sections
       -->
 			<div class="mt-8">
-				{#each sections as section}
+				{#each sections as section (section)}
 					<div class="flex flex-row gap-x-2 items-center">
 						<hr class="bg-slate-600 w-12 border-t-1" />
 						<a href={`#${section.toLowerCase()}`}>{section}</a>
@@ -56,10 +64,10 @@
 			</div>
 		</div>
 	</div>
-	<!-- 
-    Right Side 
+	<!--
+    Right Side
   -->
-	<div id="about" class="basis-2/3">
+	<div id="about" class="basis-3/4">
 		<div class="text-center">
 			<h1>About</h1>
 			<hr class="bg-slate-600 border-t-1 m-2" />
@@ -89,7 +97,7 @@
 				Experience
 				<hr class="bg-slate-600 border-t-1 m-2" />
 			</div>
-			{#each cards as card}
+			{#each cards as card (card.company)}
 				<div class="w-full my-4">
 					<Card {card} />
 				</div>
