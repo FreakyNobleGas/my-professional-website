@@ -85,10 +85,10 @@
       class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full p-4 md:p-6 space-y-4 text-sm md:text-base align-middle place-content-center font-thin mt-4"
     >
       <p>
-        I'm a full stack software engineer who builds across the entire stack, with a focus on
+        I'm a full stack software engineer, who truly builds across the entire stack, with a focus on
         Python for crafting APIs and automation that solve complex problems. Programming extends
-        beyond work for me—I spend my free time building tools, exploring creative projects, and
-        occasionally getting lost in story-driven games or going for a run.
+        beyond work for me; I spend my free time building tools, exploring creative projects. I'm also
+		an avid DIYer at home and enjoy playing video games with my friend group.
       </p>
       <p>
         I hold a Bachelor of Science in Computer Science with a minor in Bioinformatics. I approach
