@@ -44,8 +44,9 @@
           <div>
             <a
               href={`#${section.toLowerCase()}`}
-              class="text-base md:text-lg font-medium hover:text-primary-500 transition-colors duration-200 block py-1"
+              class="text-base md:text-lg font-medium hover:text-primary-500 hover:underline transition-all duration-200 block py-1 px-2 rounded hover:bg-surface-200-800 cursor-pointer inline-flex items-center gap-2"
             >
+              <span class="text-primary-500">→</span>
               {section}
             </a>
           </div>
