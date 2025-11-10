@@ -3,28 +3,28 @@
         "years": "Aug 2022 - Present",
         "company": "Fidelity Labs - Catchlight",
         "title": "Full Stack Engineer",
-        "description": "Experience working in a dynamic and fast-paced environment to deliver business needs.",
-        "technologies": ["Python", "TypeScript", "AWS", "Ruby on Rails"]
+        "description": "Built features for a web application driving organic growth for financial advisors, working with Rails and event-driven component architecture. Developed and deployed cloud-native microservices using modern Python and JavaScript frameworks across serverless and containerized infrastructure.",
+        "technologies": ["Python", "TypeScript", "Ruby on Rails", "Svelte", "AWS", "Docker"]
     },
     {
         "years": "Jan 2020 - Aug 2022",
-        "company": "Fidelity",
+        "company": "Fidelity Investments",
         "title": "Senior Software Engineer",
-        "description": "Built self-service automation tools using Angular and Python that enabled application teams to instrument monitoring across AWS, Azure, and on-premise infrastructures. Working with tools like FluentBit, OpenTelemetry, Splunk, and Datadog, advised dozens of teams on implementing comprehensive monitoring solutions.",
-        "technologies": ["Observability", "Kubernetes", "Python", "Go", "AWS", "Angular", "Azure", "Datadog", "Splunk Cloud"]
+        "description": "Built automation tooling that enabled engineering teams to instrument monitoring at scale across diverse infrastructure. Advised application teams on implementing comprehensive monitoring solutions using distributed tracing, logging, and metrics.",
+        "technologies": ["Observability", "Kubernetes", "Python", "Go", "AWS", "Angular", "Azure", "Rancher", "Datadog", "Splunk Cloud"]
     },
     {
         "years": "Jun 2018 - Nov 2019",
         "company": "BAE Systems",
         "title": "Software Technical Intern III",
-        "description": "",
-        "technologies": ["Ada", "Python", "Git", "Bash"]
+        "description": "Delivered a Python and Bash testing suite with GUI reporting that enabled a team of 30 engineers to catch system crashes and unexpected behavior through automated end-to-end tests. Improved scripts to migrate the project from ClearCase to Git, streamlining version control and team collaboration. Developed Ada solutions to optimize system engineering workflows and engineered a Python program to automatically parse and update file headers across 1500+ Ada and C files to meet customer standards.",
+        "technologies": ["Ada", "Python", "Git", "Bash", "ClearCase"]
     },
     {
         "years": "Mar 2016 - May 2017",
         "company": "Kansas State University Catalyst Technology Center",
         "title": "IT Technician",
-        "description": "TODO",
+        "description": "Provided technical support to students and faculty in Kansas State University's College of Education, troubleshooting MacOS hardware and software issues. Entrusted with securing two million dollars worth of classroom technical equipment after hours.",
         "technologies": ["MacOS"]
     }
 ]

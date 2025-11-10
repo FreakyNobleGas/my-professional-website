@@ -9,7 +9,7 @@
 
 <div class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full p-6 flex flex-row gap-x-4">
     <div class="size-auto">
-        <p class="pt-2 text-sm">{card.years}</p>
+        <p class="pt-1 text-sm">{card.years}</p>
     </div>
     <div class="flex-1 space-y-3 text-left">
         <h2 class="text-primary-400 font-bold text-xl">{card.company}</h2>
