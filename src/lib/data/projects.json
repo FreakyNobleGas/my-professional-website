@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Professional Portfolio Website",
+        "link": "https://github.com/FreakyNobleGas/my-professional-website",
+        "screenshot": "/project-screenshots/portfolio.png",
+        "description": "The website you're currently viewing! A modern, responsive portfolio website built with SvelteKit 5 and Skeleton UI.",
+        "technologies": ["SvelteKit 5", "TypeScript", "Tailwind CSS", "Skeleton UI"]
+    }
+]

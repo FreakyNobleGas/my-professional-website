@@ -1,10 +1,13 @@
 <script lang="ts">
 	import Card from '$lib/card.svelte';
+	import ProjectCard from '$lib/project-card.svelte';
 	import experience from '$lib/data/experience.json';
+	import projects from '$lib/data/projects.json';
 
 	const sections = ['About', 'Experience', 'Projects'];
 
 	const cards: App.Card[] = experience;
+	const projectCards: App.Project[] = projects;
 </script>
 
 <!-- 
@@ -32,14 +35,18 @@
 				<h2 class="h2">Nick Quinn</h2>
 				<h4 class="h4">Full Stack Engineer</h4>
 			</div>
-			<!-- 
+			<!--
         Page Sections
       -->
-			<div class="mt-8">
+			<div class="mt-8 space-y-2">
 				{#each sections as section (section)}
-					<div class="flex flex-row gap-x-2 items-center">
-						<hr class="bg-slate-600 w-12 border-t-1" />
-						<a href={`#${section.toLowerCase()}`}>{section}</a>
+					<div>
+						<a
+							href={`#${section.toLowerCase()}`}
+							class="text-lg font-medium hover:text-primary-500 transition-colors duration-200 block py-1"
+						>
+							{section}
+						</a>
 					</div>
 				{/each}
 			</div>
@@ -68,8 +75,8 @@
     Right Side
   -->
 	<div id="about" class="basis-3/4">
-		<div class="text-center">
-			<h1>About</h1>
+		<div class="text-center mb-6">
+			<h1 class="text-3xl font-bold text-primary-400">About</h1>
 			<hr class="bg-slate-600 border-t-1 m-2" />
 		</div>
 		<div class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full p-4 space-y-4 text-sm align-middle place-content-center font-thin mt-4">
@@ -92,9 +99,9 @@
 				believe in having fun and making the most out of every challenge.
 			</p>
 		</div>
-		<div id="experience" class="mt-4">
-			<div class="text-center">
-				Experience
+		<div id="experience" class="mt-8">
+			<div class="text-center mb-6">
+				<h1 class="text-3xl font-bold text-primary-400">Experience</h1>
 				<hr class="bg-slate-600 border-t-1 m-2" />
 			</div>
 			{#each cards as card (card.company)}
@@ -104,11 +111,16 @@
 			{/each}
 		</div>
 
-		<div id="projects" class="mt-4">
-			<dir class="text-center">
-				<h1>Projects</h1>
+		<div id="projects" class="mt-8">
+			<div class="text-center mb-6">
+				<h1 class="text-3xl font-bold text-primary-400">Projects</h1>
 				<hr class="bg-slate-600 border-t-1 m-2" />
-			</dir>
+			</div>
+			{#each projectCards as project (project.name)}
+				<div class="w-full my-4">
+					<ProjectCard {project} />
+				</div>
+			{/each}
 		</div>
 	</div>
 </div>

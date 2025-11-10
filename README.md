@@ -17,16 +17,16 @@ Start Dev Server
 bun run dev
 ```
 
-Inspired By
-https://brittanychiang.com/?ref=hackernoon.com
-
 # AI Coding Tooling
 
 [Svelte MCP Server](https://svelte.dev/docs/mcp/overview)
+[Claude AI](https://claude.ai/)
 
 Configure MCP Server for Claude CLI with [local scope](https://code.claude.com/docs/en/mcp#local-scope).
 ```bash
 claude mcp add -t http -s local svelte https://mcp.svelte.dev/mcp
 ```
 
-[Claude AI](https://claude.ai/)
+# Special Thanks
+
+Inspired by [Brittany Chiang's Website](https://brittanychiang.com/?ref=hackernoon.com) that I discovered through [HackerNoon](https://hackernoon.com/21-best-developer-portfolio-examples-p61j31wi).

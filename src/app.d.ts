@@ -9,6 +9,14 @@ declare global {
 			description: string;
 			technologies: string[];
 		}
+
+		interface Project {
+			name: string;
+    		link: string;
+    		screenshot: string;
+    		description: string;
+    		technologies: string[];
+		}
 	}
 }
 

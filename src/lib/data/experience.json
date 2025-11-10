@@ -9,14 +9,14 @@
     {
         "years": "Jan 2020 - Aug 2022",
         "company": "Fidelity",
-        "title": "Software Engineer",
-        "description": "Experience working on Fidelity's Cloud Platform Engineering to develop and deliver Observability solutions across the company.",
-        "technologies": ["Observability", "Kubernetes", "Python", "Go"]
+        "title": "Senior Software Engineer",
+        "description": "Built self-service automation tools using Angular and Python that enabled application teams to instrument monitoring across AWS, Azure, and on-premise infrastructures. Working with tools like FluentBit, OpenTelemetry, Splunk, and Datadog, advised dozens of teams on implementing comprehensive monitoring solutions.",
+        "technologies": ["Observability", "Kubernetes", "Python", "Go", "AWS", "Angular", "Azure", "Datadog", "Splunk Cloud"]
     },
     {
         "years": "Jun 2018 - Nov 2019",
         "company": "BAE Systems",
-        "title": "Intern",
+        "title": "Software Technical Intern III",
         "description": "",
         "technologies": ["Ada", "Python", "Git", "Bash"]
     },
