@@ -22,7 +22,9 @@
     Left Side
   -->
   <div class="basis-full md:basis-1/4 mb-8 md:mb-0">
-    <div class="static md:sticky top-32 flex flex-col items-center md:items-start text-center md:text-left">
+    <div
+      class="static md:sticky top-32 flex flex-col items-center md:items-start text-center md:text-left"
+    >
       <!-- Headshot -->
       <div class="flex justify-center md:justify-start mb-6">
         <img
@@ -85,15 +87,16 @@
       class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 w-full p-4 md:p-6 space-y-4 text-sm md:text-base align-middle place-content-center font-thin mt-4"
     >
       <p>
-        I'm a full stack software engineer, who truly builds across the entire stack, with a focus on
-        Python for crafting APIs and automation that solve complex problems. Programming extends
-        beyond work for me; I spend my free time building tools, exploring creative projects. I'm also
-		an avid DIYer at home and enjoy playing video games with my friend group.
+        I am a full-stack software engineer with experience across frontend, backend, and
+        infrastructure domains. I use Python and TypeScript to develop APIs and automate solutions
+        for complex challenges. My interest in programming extends beyond my professional
+        responsibilities; I dedicate my free time to building tools and pursuing creative projects.
+        Additionally, I am an avid DIY enthusiast and enjoy playing video games with friends.
       </p>
       <p>
         I hold a Bachelor of Science in Computer Science with a minor in Bioinformatics. I approach
-        engineering with curiosity and creativity, preferring to explore novel solutions before
-        reaching for established patterns.
+        engineering challenges with curiosity and creativity, prioritizing novel solutions before
+        adopting established patterns.
       </p>
     </div>
     <div id="experience" class="mt-8">

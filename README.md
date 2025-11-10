@@ -8,7 +8,7 @@
 [![Styled with Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com)
 
-[🌐 Live Demo](#) • [📧 Contact](https://www.linkedin.com/in/nicholas-quinn/) • [💼 LinkedIn](https://www.linkedin.com/in/nicholas-quinn/)
+[🌐 Live Demo](https://nickquinn.dev/) • [💼 LinkedIn](https://www.linkedin.com/in/nicholas-quinn/)
 
 </div>
 
