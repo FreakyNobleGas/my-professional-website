@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "mcp__svelte__svelte-autofixer"
+      "mcp__svelte__svelte-autofixer",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []

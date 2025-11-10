@@ -5,5 +5,40 @@
         "screenshot": "/project-screenshots/portfolio.png",
         "description": "The website you're currently viewing! A modern, responsive portfolio website built with SvelteKit 5 and Skeleton UI.",
         "technologies": ["SvelteKit 5", "TypeScript", "Tailwind CSS", "Skeleton UI"]
+    },
+    {
+        "name": "Game Recommender",
+        "link": "https://github.com/Wolfinbarger/game-recommender",
+        "screenshot": "/project-screenshots/game-recommender.png",
+        "description": "A full-stack application that helps users discover games suited to their preferences through a preference-based recommendation engine. Features data integration from multiple sources including APIs and custom web scrapers.",
+        "technologies": ["React", "Django", "PostgreSQL", "Tailwind CSS"]
+    },
+    {
+        "name": "AI Freeze Tag Simulation",
+        "link": "https://github.com/FreakyNobleGas/AI_Project",
+        "screenshot": "/project-screenshots/ai-project.png",
+        "description": "Senior project simulating AI agents competing in Freeze Tag. Implements multiple search algorithms and heuristics for decision-making, with hunters pursuing runners who attempt to reach safe zones using adaptive pathfinding strategies.",
+        "technologies": ["Python", "SFML", "Genetic Algorithms", "Pathfinding"]
+    },
+    {
+        "name": "Discord Bots",
+        "link": "https://github.com/FreakyNobleGas/discord-bots",
+        "screenshot": "/project-screenshots/discord-bots.png",
+        "description": "Collection of Discord bots for server automation including voice chat notifications, Twitch stream alerts, and a music bot with song queuing functionality. Built for personal server management and community engagement.",
+        "technologies": ["Python", "Discord.py", "Docker"]
+    },
+    {
+        "name": "Advent of Code Solutions",
+        "link": "https://github.com/FreakyNobleGas/advent-of-code",
+        "screenshot": "/project-screenshots/advent-of-code.png",
+        "description": "Solutions to Advent of Code programming challenges across multiple years. Organized repository with utility scripts for generating new day folders and maintaining solutions in Python and Ruby.",
+        "technologies": ["Python", "Ruby", "Algorithms"]
+    },
+    {
+        "name": "Neovim Configuration",
+        "link": "https://github.com/FreakyNobleGas/nvim-config",
+        "screenshot": "/project-screenshots/nvim.png",
+        "description": "Custom Neovim setup built on LazyVim with LSP integration, GitHub Copilot support, and optimized keymaps. Features custom configurations for code intelligence, formatting, and note-taking with ZK integration.",
+        "technologies": ["Lua", "Neovim", "LazyVim", "LSP"]
     }
 ]
