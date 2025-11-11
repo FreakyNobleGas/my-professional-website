@@ -1,5 +1,10 @@
-<script>
-    let { children } = $props();
+<script lang="ts">
+    import { dev } from '$app/environment';
+    import { injectAnalytics } from '@vercel/analytics/sveltekit';
     import "../app.css";
-  </script>
+
+    let { children } = $props();
+
+    injectAnalytics({ mode: dev ? 'development' : 'production' });
+</script>
   {@render children()}
